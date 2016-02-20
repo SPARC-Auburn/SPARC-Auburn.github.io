@@ -53,9 +53,8 @@ A:hover {text-decoration: underline,overline;  color:#F28652;}
 	height: 100%;
 }
 #navbar{
-	position:absolute;
-	right:0;
-	top:0;
+  margin: 0 auto;
+  position: relative;
 
 }
 #navbar ul{
