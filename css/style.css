@@ -41,9 +41,9 @@ A:hover {text-decoration: underline,overline;  color:#F28652;}
 #contact A:hover {text-decoration: underline,overline;  color:#FFFFFF;}
 /* Basic Structure ============================================================= */
 .wrap{
-   	margin: 0 auto;
-    position: relative;
-    width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  width: 1000px;
 	height: 100%;
 }
 .minwrap{
@@ -134,7 +134,7 @@ article.full{
 #header{
 	height:50px;
 	background-color:#f95023;
-  width:100%;
+  width: 1000px;
 }
 #about{
 	height:500px;
