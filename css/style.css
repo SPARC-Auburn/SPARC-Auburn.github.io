@@ -123,7 +123,9 @@ article.full{
   width: 100%;
   min-width: 1000px;
 	overflow: hidden;
-
+}
+article.full h2{
+	margin-top:10px;
 }
 #header{
   margin: 0 auto;
@@ -135,7 +137,7 @@ article.full{
 }
 #about{
 
-	height:500px;
+	height:450px;
 	background-color:#D4D4D4;
 }
 #titlebar{
