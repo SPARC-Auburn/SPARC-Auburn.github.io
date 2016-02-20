@@ -55,7 +55,7 @@ A:hover {text-decoration: underline,overline;  color:#F28652;}
 #navbar{
 	position:absolute;
 	right:0;
-	top:0;	
+	top:0;
 }
 #navbar ul{
 	list-style-type:none;
@@ -85,9 +85,9 @@ A:hover {text-decoration: underline,overline;  color:#F28652;}
 	overflow: hidden; /* fix for Firefox */
 	float:left;
 	padding:10px;
-	
+
 }
-#about .box{	
+#about .box{
 	top:0;
 	height:400px;
 }
@@ -97,7 +97,7 @@ div.box li{
 div.column{
 	position:relative;
 	width:100%;
-	float:left;	
+	float:left;
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
@@ -119,7 +119,7 @@ div.year{
 article{
 	z-index: 0;
 	margin: 0 auto;
-        float: left;      
+        float: left;
 }
 article.full{
 	position:relative;
@@ -130,7 +130,7 @@ article.full{
     float: left;
     width: 100%;
 	overflow: hidden;
-	
+
 }
 #header{
 	height:50px;
@@ -173,7 +173,7 @@ article.full{
 }
 
 #resources{
-	
+
 	background-color:#D4D4D4;
 }
 #sponsors{
@@ -185,7 +185,7 @@ article.full{
 	background-color:#f95023;
 }
 #footer{
-	height:150px;
+	height:250px;
 	background-color:#2b2b2b;
 }
 #minfooter{
