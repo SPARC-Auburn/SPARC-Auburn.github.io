@@ -43,7 +43,8 @@ A:hover {text-decoration: underline,overline;  color:#F28652;}
 .wrap{
   margin: 0 auto;
   position: relative;
-  width: 1000px;
+  max-width: 1000px;
+  width:95%;
 	height: 100%;
 }
 #navbar{
