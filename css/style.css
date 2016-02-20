@@ -25,13 +25,13 @@ html, body {
     font-family: "weblysleekuil";
     src: url(fonts/weblysleekuil.ttf);
 }
- 	h1{font-family: 'Pistara',cursive; font-weight: normal; font-size:32px;color:#2B2B2B;}
-  h2{font-family: 'Pistara',sans-serif; font-weight: normal; font-size:36px;color:#2B2B2B;}
-  h3{font-family: 'Roboto', sans-serif;font-weight: normal;font-size: 26px;color:#2B2B2B;}
- 	h4{font-family: 'Pistara',cursive; font-weight: normal; font-size:24px;color:white;}
-	h5{font-family: 'weblysleekuil', sans-serif;font-size: 15px; font-weight: bold;color:#2B2B2B;}
-	h6{font-family: 'weblysleekuil', sans-serif;font-size: 15px; font-weight:normal;color:#2B2B2B;}
-	p{font-family: 'weblysleekuil', sans-serif; font-size: 20px; font-weight: normal;line-height:130%;color:#2B2B2B;}
+ 	h1{font-family: 'Pistara',cursive; font-weight: normal; font-size:32px; color:#2B2B2B;}
+  h2{font-family: 'Pistara',sans-serif; font-weight: normal; font-size:36px; color:#2B2B2B;}
+  h3{font-family: 'Roboto', sans-serif; font-weight: normal; font-size: 26px; color:#2B2B2B;}
+ 	h4{font-family: 'Pistara',cursive; font-weight: normal; font-size:24px; color:white;}
+	h5{font-family: 'weblysleekuil', sans-serif;font-size: 15px; font-weight: bold; color:#2B2B2B;}
+	h6{font-family: 'weblysleekuil', sans-serif;font-size: 15px; font-weight:normal; color:#2B2B2B;}
+	p{font-family: 'weblysleekuil', sans-serif; font-size: 20px; font-weight: normal; line-height:130%; color:#2B2B2B;}
 	li{font-family: 'weblysleekuil', sans-serif;font-weight: normal;font-size: 15px;-webkit-text-stroke: 0.01px;-webkit-font-smoothing: antialiased;color:#2B2B2B;margin-left:20px;}
 
 A:link {text-decoration: none;color:#0a4db5;}
@@ -184,15 +184,6 @@ article.full{
 	height:250px;
 	background-color:#2b2b2b;
 }
-#minfooter{
-	height:150px;
-	margin: 0 auto;
-	bottom:0;
-}
-#minfooter h4{
-	margin: 0 auto;
-	color:black;
-}
 input, textarea {
   width:500px;
   height:25px;
@@ -210,15 +201,15 @@ textarea {
 	background:white;
 }
 input:focus, textarea:focus {
-    border:1px solid #0a4db5;
+  border:1px solid #0a4db5;
 	color:#2B2B2B;
 }
 #submit {
-    width:100px;
-    height:40px;
-    border:none;
-    margin-top:10px;
-    cursor:pointer;
+  width:100px;
+  height:40px;
+  border:none;
+  margin-top:10px;
+  cursor:pointer;
 	background-color:#2B2B2B;
 	color:white;
 }
