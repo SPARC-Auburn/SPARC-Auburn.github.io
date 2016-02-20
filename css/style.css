@@ -46,16 +46,10 @@ A:hover {text-decoration: underline,overline;  color:#F28652;}
   width: 1000px;
 	height: 100%;
 }
-.minwrap{
-   	margin: 0 auto;
-    position: relative;
-    width: 750px;
-	height: 100%;
-}
 #navbar{
-  margin: 0 auto;
-  position: relative;
-
+	position:absolute;
+	right:0;
+	top:0;
 }
 #navbar ul{
 	list-style-type:none;
@@ -70,7 +64,6 @@ A:hover {text-decoration: underline,overline;  color:#F28652;}
 #navbar a{
 	color:white;
 }
-
 .box{
 	top:0;
 	background-color:white;
@@ -131,6 +124,8 @@ article.full{
 
 }
 #header{
+  margin: 0 auto;
+  position:relative;
 	height:50px;
 	background-color:#f95023;
   width: 1000px;
