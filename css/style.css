@@ -25,10 +25,10 @@ html, body {
     font-family: "weblysleekuil";
     src: url(fonts/weblysleekuil.ttf);
 }
-   	h1{font-family: 'Pistara',cursive; font-weight: normal; font-size:32px;color:#2B2B2B;}
-    h2{font-family: 'Pistara',sans-serif; font-weight: normal; font-size:36px;color:#2B2B2B;}
-    h3{font-family: 'Roboto', sans-serif;font-weight: normal;font-size: 26px;color:#2B2B2B;}
-   	h4{font-family: 'Pistara',cursive; font-weight: normal; font-size:24px;color:white;text-align:center;}
+ 	h1{font-family: 'Pistara',cursive; font-weight: normal; font-size:32px;color:#2B2B2B;}
+  h2{font-family: 'Pistara',sans-serif; font-weight: normal; font-size:36px;color:#2B2B2B;}
+  h3{font-family: 'Roboto', sans-serif;font-weight: normal;font-size: 26px;color:#2B2B2B;}
+ 	h4{font-family: 'Pistara',cursive; font-weight: normal; font-size:24px;color:white;}
 	h5{font-family: 'weblysleekuil', sans-serif;font-size: 15px; font-weight: bold;color:#2B2B2B;}
 	h6{font-family: 'weblysleekuil', sans-serif;font-size: 15px; font-weight:normal;color:#2B2B2B;}
 	p{font-family: 'weblysleekuil', sans-serif; font-size: 20px; font-weight: normal;line-height:130%;color:#2B2B2B;}
@@ -70,8 +70,6 @@ A:hover {text-decoration: underline,overline;  color:#F28652;}
 #navbar a{
 	color:white;
 }
-
-
 
 .box{
 	top:0;
@@ -136,7 +134,6 @@ article.full{
 	height:50px;
 	background-color:#f95023;
 }
-
 #about{
 	height:500px;
 	background-color:#D4D4D4;
@@ -171,7 +168,6 @@ article.full{
 	padding-top:0px;
 	background-color:#D4D4D4;
 }
-
 #resources{
 
 	background-color:#D4D4D4;
@@ -198,15 +194,15 @@ article.full{
 	color:black;
 }
 input, textarea {
-    width:500px;
-    height:25px;
-    background:white;
-    border:1px solid #dedede;
-    padding:10px;
-    margin-top:10px;
-    font-size:16px;
-	font-family: 'weblysleekuil';
-    color:#2B2B2B;
+  width:500px;
+  height:25px;
+  background:white;
+  border:1px solid #dedede;
+  padding:10px;
+  margin-top:10px;
+  font-size:16px;
+  font-family: 'weblysleekuil';
+  color:#2B2B2B;
 }
 textarea {
 	height:150px;
@@ -228,4 +224,4 @@ input:focus, textarea:focus {
 }
 #submit:hover {
 	background-color:black;
-	}
+}
