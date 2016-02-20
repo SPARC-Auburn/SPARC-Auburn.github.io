@@ -121,6 +121,7 @@ article.full{
 	padding-bottom:20px;
   float: left;
   width: 100%;
+  min-width: 1000px;
 	overflow: hidden;
 
 }
@@ -133,6 +134,7 @@ article.full{
   min-width: 1000px;
 }
 #about{
+
 	height:500px;
 	background-color:#D4D4D4;
 }
