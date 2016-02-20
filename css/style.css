@@ -118,8 +118,8 @@ article.full{
 	left:0;
 	padding-top:20px;
 	padding-bottom:20px;
-    float: left;
-    width: 100%;
+  float: left;
+  width: 100%;
 	overflow: hidden;
 
 }
@@ -128,7 +128,8 @@ article.full{
   position:relative;
 	height:50px;
 	background-color:#f95023;
-  width: 1000px;
+  width: 100%;
+  min-width: 1000px;
 }
 #about{
 	height:500px;
