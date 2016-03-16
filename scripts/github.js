@@ -1,18 +1,26 @@
-$(document).ready(function() {
-    $.ajax({
-        type: "GET",
-        url: "https://api.github.com/users/SPARC-Auburn/repos",
-        dataType: "json",
-        success: function(result) {
-            for( i in result ) {
-                $("#repo_list").append(
-                    "<li><a href='" + result[i].html_url + "' target='_blank'>" +
-                    result[i].name + "</a>: "+result[i].description + "</li>"
-                );
-                console.log("i: " + i);
-            }
-            console.log(result);
-            $("#repo_count").append("Total Repos: " + result.length);
-        }
+jQuery.githubUser = function(username, callback) {
+  jQuery.getJSON("http://github.com/api/v1/json/" + username + "?callback=?", callback);
+}
+ 
+jQuery.fn.loadRepositories = function(username) {
+  this.html("<span>Querying GitHub for repositories...</span>");
+ 
+  var target = this; 
+  $.githubUser(username, function(data) {
+    var repos = data.user.repositories;
+    sortByNumberOfWatchers(repos);
+ 
+    var list = $('<dl/>');
+    target.empty().append(list);
+    $(repos).each(function() {
+      list.append('<dt><a href="'+ this.url +'">' + this.name + '</a></dt>');
+      list.append('<dd>' + this.description + '</dd>');
     });
-});
+  });
+ 
+  function sortByNumberOfWatchers(repos) {
+    repos.sort(function(a,b) {
+      return b.watchers - a.watchers;
+    });
+  }
+};
