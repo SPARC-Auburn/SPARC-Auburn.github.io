@@ -7,8 +7,7 @@ jq142(document).ready(function() {
             for( i in result ) {
                 if (result[i].size > 0) {
                     jq142("#repo_list").append(
-                        "<li><a href='" + result[i].html_url + "' target='_blank'>" +
-                        result[i].name + "</a>: "+result[i].description + "</li>"
+                        "<div class="box"><h3>" + result[i].name + "</h3><hr noshade/><p>" +result[i].description + "<a href='" + result[i].html_url + "' target='_blank'>Visit Github</a></p></div>"
                     );
                 }
             }
