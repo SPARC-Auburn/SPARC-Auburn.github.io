@@ -1,15 +1,15 @@
 // http://aboutcode.net/2010/11/11/list-github-projects-using-javascript.html
 
-jQuery.githubUserRepositories = function(username, callback) {
-  jQuery.getJSON("https://api.github.com/users/" + username + "/repos?callback=?", callback);
+jQuery.githubUser = function(username, callback) {
+  jQuery.getJSON("http://github.com/api/v1/json/" + username + "?callback=?", callback);
 }
  
 jQuery.fn.loadRepositores = function(username) {
   this.html("<span>Querying GitHub for repositories...</span>");
  
   var target = this; 
-  $.githubUserRepositories(username, function(data) {
-    var repos = data.data;
+  $.githubUser(username, function(data) {
+    var repos = data.user.repositories;
     sortByNumberOfWatchers(repos);
  
     var list = $('<dl/>');
