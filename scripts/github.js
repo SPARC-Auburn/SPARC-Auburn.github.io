@@ -1,26 +1,25 @@
-jQuery.githubUser = function(username, callback) {
-  jQuery.getJSON("http://github.com/api/v1/json/" + username + "?callback=?", callback);
+// Create a JSONP wrapper
+function executeYQL(yql, callbackFuncName) {
+	var url = "http://query.yahooapis.com/v1/public/yql?q=" + encodeURIComponent(yql) + "&env=store://datatables.org/alltableswithkeys&format=json&callback="+callbackFuncName;
+	var head = document.getElementsByTagName('head')[0];
+	var script = document.createElement('script');
+	script.type = 'text/javascript';
+	script.src = url;
+	head.appendChild(script);
 }
- 
-jQuery.fn.loadRepositories = function(username) {
-  this.html("<span>Querying GitHub for repositories...</span>");
- 
-  var target = this; 
-  $.githubUser(username, function(data) {
-    var repos = data.user.repositories;
-    sortByNumberOfWatchers(repos);
- 
-    var list = $('<dl/>');
-    target.empty().append(list);
-    $(repos).each(function() {
-      list.append('<dt><a href="'+ this.url +'">' + this.name + '</a></dt>');
-      list.append('<dd>' + this.description + '</dd>');
-    });
-  });
- 
-  function sortByNumberOfWatchers(repos) {
-    repos.sort(function(a,b) {
-      return b.watchers - a.watchers;
-    });
-  }
-};
+
+// Execute the query
+executeYQL("select repository from github.user.repos where id='drgath' | reverse()", "daCallback");
+
+// Define the callback
+function daCallback(data) {
+	var repositories = data.query.results.repositories;
+	var html = [];
+	
+	for(i in repositories) { 
+		var repo = repositories[i].repository;
+		html.push("<li><a href='" + repo.url + "'>" + repo.name + "</a> - " + repo.description + "</li>");
+	}
+	
+	document.getElementById("repositories").innerHTML = html.join('');
+}
