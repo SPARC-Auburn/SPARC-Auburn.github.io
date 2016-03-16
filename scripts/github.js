@@ -1,4 +1,4 @@
-$(document).ready(function() {
+jq142(document).ready(function() {
     $.ajax({
         type: "GET",
         url: "https://api.github.com/users/SPARC-Auburn/repos",
