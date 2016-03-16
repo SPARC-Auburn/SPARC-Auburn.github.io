@@ -9,10 +9,8 @@ jq142(document).ready(function() {
                     "<li><a href='" + result[i].html_url + "' target='_blank'>" +
                     result[i].name + "</a>: "+result[i].description + "</li>"
                 );
-                console.log("i: " + i);
             }
-            console.log(result);
-            jq142("#repo_count").append("Total Repos: " + result.length);
+            
         }
     });
 });
