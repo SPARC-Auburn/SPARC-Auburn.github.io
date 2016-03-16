@@ -8,12 +8,12 @@
 	<title>SPARC - Auburn University</title><!--Browser Window Title-->
 	<meta name="description" content="SPARC which stands for Student Projects and Research Committee is Auburn University's makerspace.  It is a club that provides students with the opportunity to test out their own ideas, integrate concepts learned in class, compete with peers at other schools, and demonstrate their products to the public. SPARC provides the lab space, tools, materials, and funding for projects."/><!--Search Description-->
 	<meta name="keywords" content="SPARC, SPARC Auburn, Auburn SPARC, Student Project and Research Committee, ausparc, Auburn University, Auburn, STEM, Electrical Engineering, Samuel Ginn College of Engineering" />  <!--Keywords-->
-    <link rel="Shortcut Icon" type="image/ico" href="img/favicon.ico"> <!--Browser Window Icon-->
+  <link rel="Shortcut Icon" type="image/ico" href="img/favicon.ico"> <!--Browser Window Icon-->
 <!--Stylesheets/Javascript links-->
 	<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen"> <!-- Reset Styles  -->
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen"> <!-- Main Styles  -->
   <link href='http://fonts.googleapis.com/css?family=Sue+Ellen+Francisco|Annie+Use+Your+Telescope|Architects+Daughter' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="css/jd.gallery.css" type="text/css" media="screen" charset="utf-8" /><!--Slideshow-->
+	<link rel="stylesheet" href="css/jd.gallery.css" type="text/css" media="screen" charset="utf-8"><!--Slideshow-->
 	<script src="scripts/mootools-1.2.1-core-yc.js" type="text/javascript"></script>
 	<script src="scripts/mootools-1.2-more.js" type="text/javascript"></script>
 	<script src="scripts/jd.gallery.js" type="text/javascript"></script>
@@ -27,8 +27,9 @@
 
   ga('create', 'UA-74087561-1', 'auto');
   ga('send', 'pageview');
+	</script>
+	<script src="scripts/github.js" type="text/javascript"></script>
 
-</script>
 </head>
 
 <body>
@@ -124,62 +125,17 @@
 </article>
 <!--////////////////////////////////////////////////-Project Section-////////-->
 <article class="full" id="titlebar" >
-	<div class="wrap"id="projectssection">
+	<div class="wrap" id="projectssection">
 		<h1 style="color:white;">Projects</h1>
 	</div>
 </article>
 
 <article class="full" id="projects">
-	<div class="wrap" >
-		<div class="year" >
-			<h2>2015-2016</h2>
-			<hr noshade/>
-			<div class="column">
-				<div class="box">
-					<h3>Tesla Coil</h3><hr noshade/>
-					<img src="images/SPARC%20Project%20Photos/teslacoil.JPG" style="width:100%;" alt=""/>
-					<p>As a demonstration for Auburn's E-Day, we are building a full size tesla coil.  A tesla coil acts as a giant voltage transformer that can generate arcs of electricity in mid-air.  The goal is to develop a tesla coil that can shoot out arcs of lengths up to 3 feet. <a href="https://github.com/SPARC-Auburn/Tesla-Coil-2015-2016" target="_blank">Read more...</a></p>
-				</div>
-				<div class="box">
-						<h3>Quadcopter</h3><hr noshade/>
-						<img src="images/SPARC%20Project%20Photos/quadcopter2sideview.JPG" style="width:100%;" alt=""/>
-						<p>We are building a fully customizable quadcopter.  The initial design was built using a premade kit.  In order to create a stronger and simpler frame, we are using a 3D printer to create custom parts.</p>
-				</div>
-				<div class="box">
-					<h3>NASA RMC Robot</h3><hr noshade/>
-					<img src="images/SPARC%20Project%20Photos/nasarmcfebruary.JPG" style="width:100%;" alt=""/>
-					<p>SPARC works alongside the Auburn Space Club in order to build the NASA Robotic Mining Competition robot.  Many members of the electrical team on NASA RMC are a part of SPARC.  NASA RMC uses the lab to do the development on the electrical hardware and software of the robot.</p>
-				</div>
-			</div>
-		</div>
-		<div class="year">
-				<h2>2014-2015</h2>
-				<hr noshade/>
-				<div class="column">
-					<div class="box">
-						<h3>NASA RMC Robot</h3><hr noshade/>
-						<img src="images/SPARC%20Project%20Photos/nasarmc2015.JPG" style="width:100%;" alt=""/>
-						<p>SPARC works alongside the Auburn Space Club in order to build the NASA Robotic Mining Competition robot.  Many members of the electrical team on NASA RMC are a part of SPARC.  NASA RMC uses the lab to do the development on the electrical hardware and software of the robot.</p>
-					</div>
-					<div class="box">
-						<h3>AFRL-Water-Cooler</h3><hr noshade/>
-						<img src="images/SPARC%20Project%20Photos/Cooler.jpg" style="width:100%;" alt=""/>
-						<p>During the fall and spring semesters of 2015, a team of SPARC members worked with a senior design team to create a method of cooling off soliders in heated combat environments. Ideally, the requisites for the project were that it be under two pounds and be able to lower the core body temperature to prevent and possible help with heat stroke while in the field. <a href="https://github.com/SPARC-Auburn/AFRL-Water-Cooler" target="_blank">Read more...</a></p>
-					</div>
-				</div>
-		</div>
-		<div class="year" >
-					<h2>Earlier Projects</h2>
-					<hr noshade/>
-					<div class="column">
-						<div class="box">
-								<h3>IEEE 2009 Competition Robot</h3><hr noshade/>
-								<img src="images/SPARC%20Project%20Photos/ieee2009-1.jpg" style="width:100%;" alt=""/>
-								<p>A robot built to pick up bottles and cans and recycle them into corresponding bags.  It won first place in the IEEE robotic competition 2009.  It utilized a complete Linux computer system with numerous sensors in order to complete its task. <a href="https://github.com/SPARC-Auburn/IEEE-SoutheastCon-2009" target="_blank">Read more...</a></p>
-						</div>
-				</div>
-		</div>
+	<div id="repos">
+    <ul id="repo_list">
+    </ul>
 	</div>
+	<div id="repo_content"></div>
 </article>
 <!--///////////////////////////////////////////////-Resources-////////-->
 <article class="full" id="titlebar">
