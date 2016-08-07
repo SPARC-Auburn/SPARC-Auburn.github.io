@@ -69,9 +69,9 @@ A:hover {text-decoration: underline,overline;  color:#F28652;}
 	top:0;
 	background-color:white;
 	margin-left:0;
-	margin-top:10px;
+	/*margin-top:10px;
+  display: inline-block;*/
 	margin-bottom:10px;
-	display: inline-block;
 	-webkit-column-break-inside: avoid;
 	-moz-column-break-inside: avoid;
 	column-break-inside: avoid;
