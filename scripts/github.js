@@ -15,7 +15,7 @@ jq142(document).ready(function() {
                     }
                     else {
                        jq142("#repo_list").append(
-                            "<li class='box'><h3>" + result[i].name + "</h3><hr noshade/>" +result[i].description + result[i].name + "<a href='" + result[i].html_url + "' target='_blank'><br/>View on Github</a></li>"
+                            "<li class='box'><h3>" + result[i].name + "</h3><hr noshade/>" +result[i].description + "<a href='" + result[i].html_url + "' target='_blank'><br/>View on Github</a></li>"
                         );
                     }
                 }
