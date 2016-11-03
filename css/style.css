@@ -223,3 +223,4 @@ input:focus, textarea:focus {
 #submit:hover {
 	background-color:black;
 }
+input.paypal    {width:96px;}
