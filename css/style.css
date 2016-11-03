@@ -212,8 +212,6 @@ input:focus, textarea:focus {
 	color:#2B2B2B;
 }
 #submit {
-  width:100px;
-  height:40px;
   border:none;
   margin-top:10px;
   cursor:pointer;
