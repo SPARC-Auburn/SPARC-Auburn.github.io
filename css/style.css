@@ -192,8 +192,7 @@ article.full h2{
 	background-color:#03244d;
 }
 input, textarea {
-  width:500px;
-  height:25px;
+
   background:white;
   border:1px solid #dedede;
   padding:10px;
@@ -211,14 +210,14 @@ input:focus, textarea:focus {
   border:1px solid #0a4db5;
 	color:#2B2B2B;
 }
-#submit {
+#submitbutton {
   border:none;
   margin-top:10px;
   cursor:pointer;
 	background-color:#2B2B2B;
 	color:white;
 }
-#submit:hover {
+#submitbutton:hover {
 	background-color:black;
 }
 input.paypal    {width:96px;}
