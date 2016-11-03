@@ -191,7 +191,7 @@ article.full h2{
 	height:250px;
 	background-color:#03244d;
 }
-.contact input, textarea {
+#contact input, textarea {
   width:500px;
   height:25px;
   background:white;
