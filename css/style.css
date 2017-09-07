@@ -89,7 +89,7 @@ li.box li{
 }
 div.column{
 	position:relative;
-	width:100%;
+	width:50;
 	float:left;
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
@@ -241,3 +241,9 @@ input.paypal    {width:96px;}
   #myBtn:hover {
 	background-color: #0a4db5
   }
+
+.columns {
+	-webkit-columns: 100px 3; /* Chrome, Safari, Opera */
+	-moz-columns: 100px 3; /* Firefox */
+	columns: 100px 3;
+}
