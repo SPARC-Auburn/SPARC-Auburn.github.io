@@ -44,8 +44,9 @@ A:hover {text-decoration: underline,overline;  color:#F28652;}
   margin: 0 auto;
   position: relative;
   max-width: 1000px;
-  width:95%;
-	height: 100%;
+  width:50%;
+  height: 100%;
+  padding: 10px;
 }
 #navbar{
 	position:absolute;
@@ -69,8 +70,8 @@ A:hover {text-decoration: underline,overline;  color:#F28652;}
 	top:0;
 	background-color:white;
 	margin-left:0;
-	/*margin-top:10px;
-  display: inline-block;*/
+	margin-top:10px;
+  	display: inline-block;
 	margin-bottom:10px;
 	-webkit-column-break-inside: avoid;
 	-moz-column-break-inside: avoid;
@@ -80,8 +81,8 @@ A:hover {text-decoration: underline,overline;  color:#F28652;}
 
 }
 #about .box{
-	top:0;
-	height:400px;
+	top:10;
+	height:200px;
 }
 li.box li{
 	margin-left:15px;
@@ -122,7 +123,7 @@ article.full{
   float: left;
   width: 100%;
   min-width: 1000px;
-	overflow: hidden;
+	
 }
 article.full h2{
 	margin-top:10px;
@@ -222,3 +223,21 @@ input:focus, textarea:focus {
 	background-color:black;
 }
 input.paypal    {width:96px;}
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: #2B2B2B;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+  }
+  
+  #myBtn:hover {
+	background-color: #0a4db5
+  }
