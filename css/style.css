@@ -84,6 +84,9 @@ A:hover {text-decoration: underline,overline;  color:#F28652;}
 	top:10;
 	height:200px;
 }
+.wide-line {
+  margin-bottom:15px;
+}
 li.box li{
 	margin-left:15px;
 }
@@ -123,7 +126,7 @@ article.full{
   float: left;
   width: 100%;
   min-width: 1000px;
-	
+
 }
 article.full h2{
 	margin-top:10px;
@@ -138,7 +141,7 @@ article.full h2{
 }
 #about{
 
-	height:450px;
+	height:600px;
 	background-color:#D4D4D4;
 }
 #titlebar{
@@ -185,11 +188,11 @@ article.full h2{
 }
 
 #contactsection{
-	height:500px;
+	height:350px;
 	background-color:#f95023;
 }
 #footer{
-	height:250px;
+	height:150px;
 	background-color:#03244d;
 }
 #contact input, textarea {
@@ -237,7 +240,7 @@ input.paypal    {width:96px;}
 	padding: 15px;
 	border-radius: 10px;
   }
-  
+
   #myBtn:hover {
 	background-color: #0a4db5
   }
