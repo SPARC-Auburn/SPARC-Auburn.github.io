@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+<channel>
+
+<title>Auburn University SPaRC RSS Feeds</title>
+<link>http://sparc.eng.auburn.edu</link>
+<description>AU SPaRC information for both the SECon Robotics team and the TourBot team.</description>
+<lastBuildDate>Tue, 2 Sep 2008 10:29:00 GMT</lastBuildDate>
+<language>en-US</language>
+<managingEditor>sparcwebmaster@gmail.com</managingEditor>
+<webMaster>sparcwebmaster@gmail.com</webMaster>
+<ttl>5</ttl>
+
+<item>
+	<title>SECon Robotics Announcements</title>
+	<description>
+	Please remember to post on the wiki about the pros/cons of the concepts we have been discussing as we need to progress forward in design.  There are also no more New Member meetings, so any questions you or anyone you know may have, please come to the meeting on Tuesdays at 6pm in Broun 235 and ask us.
+	</description>
+	<guid>http://sparc.eng.auburn.edu/#SECON</guid>
+	<pubDate>Mon, 22 Sep 2008 23:00:00 GMT</pubDate>
+</item>
+
+<item>
+	<title>SECon Robotics Announcements</title>
+	<description>
+	The meeting tonight will be in Broun 235 instead of Broun 239
+	</description>
+	<guid>http://sparc.eng.auburn.edu/#SECON</guid>
+	<pubDate>Tue, 9 Sep 2008 20:48:00 GMT</pubDate>
+</item>
+
+<item>
+	<title>TourBot Announcements</title>
+	<description>
+	This weeks TourBot meeting will be together with SECon's meeting on Tuesday at 6pm.
+	</description>
+	<guid>http://sparc.eng.auburn.edu/#TourBot</guid>
+	<pubDate>Tue, 9 Sep 2008 19:45:00 GMT</pubDate>
+</item>
+
+<item>
+	<title>SECon Robotics Announcements</title>
+	<description>
+	The link to TRAC has been fixed and now allows you to register.  Please do so using your "@auburn.edu" email address so that you can be approved and can start using TRAC.
+	</description>
+	<guid>http://sparc.eng.auburn.edu/#SECON</guid>
+	<pubDate>Tue, 9 Sep 2008 14:22:00 GMT</pubDate>
+</item>
+
+<item>
+	<title>SECon Robotics Announcements</title>
+	<description>
+	The RSS Feed is now up and running.
+	</description>
+	<guid>http://sparc.eng.auburn.edu/#SECON</guid>
+	<pubDate> Tue, 2 Sep 2008 10:29:00 GMT</pubDate>
+</item>
+
+<item>
+	<title>SECon Robotics Announcements</title>
+	<description>
+	SPaRC Meetings have been moved from Mondays @ 4pm to Tuesdays from 6-7pm.  This is a permanent change with all meeting occuring on
+    Tuesdays now.  Email me (sparcwebmaster@gmail.com) about questions or confilcts.  Also, New Member meetings will begin on 
+	Tuesday, August 26th at 5pm in Broun 239.
+	</description>
+	<guid>http://sparc.eng.auburn.edu/#SECON</guid>
+	<pubDate>Tue, 2 Sep 2008 10:22:00 GMT</pubDate>
+</item>
+
+<item>
+	<title>TourBot Announcements</title>
+	<description>
+	TourBot meetings are Thursdays at 7pm in the TourBot lab.
+	</description>
+	<guid>http://sparc.eng.auburn.edu/#TourBot</guid>
+	<pubDate>Tue, 2 Sep 2008 10:22:00 GMT</pubDate>
+</item>
+
+</channel>
+</rss>
